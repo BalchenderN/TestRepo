@@ -9,7 +9,7 @@ public class BaseController {
 	@GetMapping(value = "/welcome")
 	public String getMethodName() {
 		System.out.println("Get Mapping method invoked");
-		return "Welcome to Spring boot Test";
+		return "Welcome to Spring boot";
 	}
 
 }
